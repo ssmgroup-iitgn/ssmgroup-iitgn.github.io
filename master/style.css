@@ -157,16 +157,17 @@ nav {
 /* Publication CSS */
 
 footer {
-    display: flex;
-    flex: 0 0 100px;
-    margin-top: auto;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
+  display: flex;
+  position: static;
+  flex: 0 0 100px;
+  margin-top: auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px;
+  line-height: 20pt;
+}
 
-  .footer-container {
-    background-color: mediumslateblue;
-    bottom: 0;
-    display: flex;
-  }
+.footer-center-container {
+  margin-left: auto;
+  margin-right: auto;
+}
