@@ -8,5 +8,20 @@
     <body>
         If you are not redirected automatically, 
         follow the <a href="home.html">link to the documentation</a>
+        <!-- redirect based on screen width -->
+        <script type="text/javascript">
+            console.log('Screen width: '+screen.width);
+            if (screen.width <= 699 && !sessionStorage.getItem("redirecting")) {
+            window.location.replace(".home-mobile.html"); //path to your mobile site
+            }
+        </script>
+        <!-- redirect bypass on the mobile site
+        such that users don't get caught in a redirect loop
+        uses jQuery cuz mobile site is jQuery Mobile
+        but could easily be rewritten -->
+        <script>
+            $('a[href="https://ssmgroup-iitgn.github.io/"]').click(function(){sessionStorage.setItem("redirecting","1")});
+            //where example.com = your desktop site
+        </script>
     </body>
 </html>
