@@ -1,0 +1,163 @@
+* {
+  margin : 0%;
+  padding: 0%;
+  background-color: white;
+  font-style: italic;
+}
+
+nav {
+  display: flex;
+  flex: 0 0 35px;
+  justify-content: space-between;
+  text-transform: uppercase;
+  padding: 35px;
+  color: rgb(61, 73, 126);
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+.hamburger-menu > a {
+  text-decoration: none;
+}
+
+.right-navigation-container a.icon {
+  display: block;
+  position: absolute;
+  right: 35px;
+  top: 35px;
+  color: rgb(61, 73, 126);
+}
+
+.hamburger-menu a {
+  color: rgb(61, 73, 126);
+  text-decoration: none;
+  font-size: 17px;
+  display: flex;
+  margin-top: 25px;
+}
+
+.About-Lab-Container {
+    /* display: flex; */
+    width: 95%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: 30px; */
+}
+
+.description-box-container {
+    display: flex;
+    margin: inherit;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 15px;
+}
+
+.about-description-container {
+    margin-left: 25px;
+    /* text-align: justify; */
+}
+
+.headings {
+    font-style: italic;
+    margin-bottom: 10px;
+    /* font-size: x-large; */
+}
+
+.Reseacrh-Container {
+    /* display: flex; */
+    max-width: 95%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.references-container {
+    align-items: center;
+    margin-top: 5pt;
+    /* font-size: small; */
+}
+
+.placeholder {
+    margin-right: 5pt;
+    font-weight: bold;
+}
+
+.Publications-container {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.publication-details-container {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.publications-year {
+    color: gray;
+    padding: 25px;
+    border-right: 2px solid silver;
+}
+
+.publications-name {
+    padding: 25px;
+    border-right: 2px solid transparent;
+}
+
+.People-Members-Container {
+    /* display: flex; */
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.place-holder-image-container {
+  align-items: center;
+}
+
+.faculty {
+    line-height: 20pt;
+}
+
+.section-headings {
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.student-box-container-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.student {
+    line-height: 20pt;
+    margin: 25px 0 25px 0;
+    /* width: 45%; */
+}
+
+footer {
+  display: flex;
+  position: static;
+  flex: 0 0 100px;
+  margin-top: auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px;
+  line-height: 20pt;
+}
+
+.footer-center-container {
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+}
